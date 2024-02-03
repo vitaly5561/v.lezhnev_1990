@@ -1,0 +1,9 @@
+:root {
+  --primary-text-color: #000;
+  --primary-bg-color: rgb(250, 250, 250);
+}
+
+footer {
+  --footer-text-color: #fff;
+  --fuuter-bg-color: #000;
+}
