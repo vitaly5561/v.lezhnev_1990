@@ -1,0 +1,113 @@
+/* Пункт номер 2 */
+h1,
+h2,
+h3 {
+  color: grey;
+}
+
+#main {
+  color: #e60202;
+}
+
+.h2 {
+  color: red;
+}
+
+.heading {
+  color: green;
+}
+/* Пункт номер 3 */
+ul li {
+  font-weight: bold;
+}
+
+/* Колір не змінівся тому що він знаходітся на другому рівні вкладеності */
+section > p {
+  color: red;
+}
+
+section p {
+  font-size: 30px;
+}
+
+/* Пункт номер 4 */
+h2:first-child {
+  color: indigo;
+}
+
+p.first a {
+  color: green;
+}
+
+p .first a {
+  color: green;
+}
+
+div + p {
+  color: salmon;
+}
+
+/* Пункт номер 5 black, blue, green, red, white, yellow */
+
+/* black  
+шістнадцяткового коду:#000000
+RGB: rgb(0 , 0 ,0)
+RGBa: rgb(0 , 0 ,0 , 1)
+hsl(0 ,0%, 0%)
+
+*/
+
+/* blue
+шістнадцяткового коду:#0000ff
+RGB: rgb(0 , 0 ,255)
+RGBa: rgb(0 , 0 ,0 , 1)
+hsl(240, 100%, 50%)
+
+*/
+
+/* green
+шістнадцяткового коду:#008000
+rgb(0, 128, 0)
+RGBa: rgb(0 , 128 ,0 , 1)
+hsl(120, 100%, 25%)
+
+*/
+
+/* red
+шістнадцяткового коду:#ff0000
+rgb(255, 0, 0)
+RGBa: rgb(255 , 0 ,0 , 1)
+hsl(0, 100%, 50%)
+
+*/
+
+/* white
+шістнадцяткового коду:#ffffff
+rgb(255, 255, 255)
+RGBa: rgb(255 , 255 ,255 , 1)
+hsl(0, 0%, 100%)
+
+*/
+
+/* yellow 
+шістнадцяткового коду:#ffff00
+rgb(255, 255, 0)
+RGBa: rgb(255 , 255 ,0 , 1)
+hsl(60, 100%, 50%)
+
+*/
+
+/* Пункт номер 6*/
+
+.translucent-box {
+  background: hsl(0, 100%, 50%, 0.5);
+}
+
+/* Пункт номер 7*/
+body {
+  font-size: 140%;
+}
+
+h1 {
+  font-size: 240%;
+}
