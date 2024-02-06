@@ -31,7 +31,8 @@ section p {
 }
 
 /* Пункт номер 4 */
-h2:first-child {
+
+.four h2:nth-child(2){
   color: indigo;
 }
 
@@ -97,7 +98,7 @@ hsl(60, 100%, 50%)
 
 */
 
-/* Пункт номер 6*/
+/* Пункт номер 6 */
 
 .translucent-box {
   background: hsl(0, 100%, 50%, 0.5);
