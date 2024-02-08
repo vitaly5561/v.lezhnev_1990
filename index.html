@@ -5,58 +5,91 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Моя домашня сторінка</title>
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,regular,italic,500,500italic,700,700italic,900,900italic&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="css/main.css" />
     <style>
       @import url("css/common.css");
     </style>
   </head>
   <body>
+   <header>
+       	<nav>
+            <!-- navigation -->
+            <a href="index.html">Home</a> 
+            <a href="catalog.html">Catalog</a> 
+            <a href="blog.html">Blog</a> 
+            <a href="about.html">About</a> 
+            <a href="contact.html">Contact</a> 
+    	</nav>
+      <nav>
+         <a class="user" href="#"><i class="fa-solid fa-user"></i></a>
+         <a class="cart" href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a>
+         <a class="heart" href="#!"><i class="fa-solid fa-heart"></i></a>
+</header>
+      </nav>
+   </header>
+
     <footer>
       <section>
         <div>
           <h2>About</h2>
-          <ul class="li">
-            <a href="#">Services</a>
-          </ul>
-          <ul class="li">
-            <a href="#">Portfolio</a>
-          </ul>
-          <ul class="li">
-            <a href="#">Pricing</a>
-          </ul>
-          <ul class="li">
-            <a href="#">Customers</a>
-          </ul>
-          <ul class="li">
-            <a href="#">Careers</a>
-          </ul>
+          <nav>
+            <ul class="list-unstyled">
+               <li><a href="#">Services</a></li>
+               <li><a href="#">Portfolio</a></li>
+               <li><a href="#">Pricing</a></li>
+               <li><a href="#">Customers</a></li>
+               <li><a href="#">Careers</a></li>
+             </ul>
+          </nav>
         </div>
         <div>
           <h2>Resources</h2>
-          <ul>
-            <li><a href="#">Docs</a></li>
-            <li><a href="#">Blog</a></li>
-            <li><a href="#">eBooks</a></li>
-            <li><a href="#">Webinars</a></li>
-          </ul>
+          <nav>
+            <ul class="list-unstyled">
+               <li><a href="#">Docs</a></li>
+               <li><a href="#">Blog</a></li>
+               <li><a href="#">eBooks</a></li>
+               <li><a href="#">Webinars</a></li>
+             </ul>
+          </nav>
         </div>
         <div>
           <h2>Contact</h2>
-          <ul>
-            <li><a href="#">Help</a></li>
-            <li><a href="#">Sales</a></li>
-            <li><a href="#">Advertise</a></li>
-          </ul>
+          <nav>
+            <ul class="list-unstyled">
+               <li><a href="#">Help</a></li>
+               <li><a href="#">Sales</a></li>
+               <li><a href="#">Advertise</a></li>
+             </ul>
+          </nav>
         </div>
       </section>
-
       <section>
-        <ul>
+         <nav> 
+            <ul class="list-unstyled">
           <li><a href="#">Terms &amp; Conditions</a></li>
           <li><a href="#">Privacy Policy</a></li>
         </ul>
+      </nav>
+       
         &copy; 2024 Copyright Shopaholic Inc.
       </section>
+      <section class="footer-social">
+         <nav>
+         <ul class="list-unstyled">
+           <li><a target="_blank" href="http://facebook.com"> <i class="fab fa-square-facebook"></i>facebook</a></li>
+           <li><a target="_blank" href="http://twitter.com"> <i class="fab fa-x-twitter"></i>twitter</a></li>
+           <li><a target="_blank" href="https://github.com"> <i class="fab fa-square-github"></i>github</a></li>
+           <li><a target="_blank" href="https://linkedin.com"><i class="fab fa-linkedin"></i> linkedin</a></li>
+           <li><a target="_blank" href="https://www.youtube.com"> <i class="fab fa-youtube"></i>youtube</a></li>
+           <li><a target="_blank" href="https://www.instagram.com"><i class="fab fa-square-instagram"></i>instagram</a></li>
+         </ul>
+       </nav>
+       </section>
     </footer>
   </body>
 </html>

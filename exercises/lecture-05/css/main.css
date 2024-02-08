@@ -1,0 +1,19 @@
+html {
+  font-family: "Roboto";
+}
+
+div {
+  font-size: 1.6em;
+}
+
+span {
+  font-size: 2.56em;
+}
+
+div strong {
+  font-size: 1.6em;
+}
+
+ul {
+  list-style-type: square;
+}
