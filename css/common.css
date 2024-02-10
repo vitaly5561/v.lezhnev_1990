@@ -2,6 +2,8 @@
 /* more styles */
 @import url("my-imported-styles.css");
 
+
+/* обнулення стилів */
 * {
   margin: 0;
   padding: 0;
@@ -9,6 +11,7 @@
   a {
     text-decoration: none;
   }
+
 }
 
 :root {
@@ -18,12 +21,9 @@
   --primary-font-size: 0.875rem;
 }
 
-html {
-  --primary-text-color: #000;
-  --primary-bg-color: #fff;
-}
-
 footer {
   --footer-text-color: #fff;
   --fuuter-bg-color: #000;
 }
+
+
