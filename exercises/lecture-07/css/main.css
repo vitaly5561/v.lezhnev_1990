@@ -1,0 +1,28 @@
+/* Пункт 2 */
+
+.percents {
+  background-image: linear-gradient(
+    to left,
+    rgb(131, 216, 239) -50%,
+    rgb(158, 180, 224) -10%,
+    rgb(104, 158, 212) 0%,
+    rgb(34, 81, 144) 100%,
+    #042d85f1 150%
+  );
+}
+.negative {
+  background-image: linear-gradient(
+    to top,
+    rgb(109, 250, 2) 2em,
+    rgb(66, 139, 3) 4em,
+    rgb(3, 129, 13) 8em,
+    rgb(6, 62, 0) 16em,
+    rgb(1, 52, 3) 2em,
+    rgb(1, 51, 18) 64em,
+    #01220bf1 128em
+  );
+}
+.radial {
+  background: radial-gradient(ellipse at top, orange, transparent),
+    radial-gradient(ellipse at bottom, red, transparent);
+}
