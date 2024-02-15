@@ -83,19 +83,16 @@ ol li:nth-child(2n+6){
 
 
 /* пункт 9 */
-h1.ua:before,
 h1.ua::before{
    content: "Слава ";
 }
 
 /* пункт 10 */
-h1.hero:after,
 h1.hero::after {
    content: " Слава!";
 }
 
 /* пункт 11 */
-p.cont:before,
 p.cont::before{
    content: "\0A7";
 }

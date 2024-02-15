@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      /* пункт 1 */
+      .box {
+        padding: 10px 20px 25px;
+        /*padding-top: 10px;
+        padding-right: 20px;
+        padding-bottom: 25px;
+        padding-left: 20px;*/
+
+        margin: 25px 20px;
+        /*margin-top: 25px;
+        margin-right: 20px;
+        margin-bottom: 25px;
+        margin-left: 20px;*/
+
+        /* пункт 2  ширина блоку буде дорювнювати 324px*/
+        width: 300px;
+        padding: 10px;
+        border: dashed 2px green;
+      }
+      /* пункт 3  width блоку буде дорювнювати 256px  height 156px*/
+      .first-box {
+        width: 200px;
+        height: 100px;
+        border: 8px solid blue;
+        padding: 20px;
+        background: yellow;
+      }
+      /* пункт 4  width блоку буде дорювнювати 216px  height 116px*/
+      .second-box {
+        width: 200px;
+        height: 100px;
+        border: 8px solid blue;
+        background: yellow;
+      }
+      /* пункт 5  width блоку буде дорювнювати 256px */
+      div {
+        box-sizing: content-box;
+        width: 200px;
+        border: 8px solid blue;
+        padding: 20px;
+        background: yellow;
+      }
+      /* пункт 6  width блоку буде дорювнювати 200px */
+      div {
+        box-sizing: border-box;
+        width: 200px;
+        border: 8px solid blue;
+        padding: 20px;
+        background: yellow;
+      }
+      /* пункт 7 */
+      div {
+        border: 10px dotted black;
+        padding: 15px;
+        background: lightblue;
+      }
+      #example1 {
+        background-clip: border-box;
+      }
+      #example2 {
+        background-clip: padding-box;
+      }
+      #example3 {
+        background-clip: content-box;
+      }
+      /* пункт 8 */
+      h1 span {
+        display: inline-block;
+        max-width: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- пункт 2 -->
+    <div class="box"></div>
+    <!--  пункт 3  -->
+    <div class="first-box"></div>
+    <!--  пункт 4 -->
+    <div class="second-box"></div>
+
+    <!--  пункт 7 -->
+    <div id="example1">
+      <p>
+        Правило для example1: фон всередині елемента має простягатися за межі
+        рамки.
+      </p>
+    </div>
+
+    <div id="example2">
+      <p>
+        Правило для example2: фон всередині елемента має простягатися до
+        внутрішнього краю рамки.
+      </p>
+    </div>
+
+    <div id="example3">
+      <p>
+        Правило для example3: фон всередині елемента має простягатися до краю
+        поля вмісту.
+      </p>
+    </div>
+    <!--  пункт 8 -->
+    <h1><span>Awesome</span> <span>article</span></h1>
+  </body>
+</html>
