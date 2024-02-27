@@ -1,0 +1,57 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+table {
+  width: 50rem;
+  border-collapse: collapse;
+  margin: 3rem auto;
+}
+/* 3 Пункт */
+th {
+  font-weight: 500;
+  color: #fff;
+  background-color: indigo;
+}
+
+/* 2 Пункт */
+td,
+th {
+  padding: 0.625rem;
+  border: 1px solid lightgrey;
+  text-align: left;
+  font-size: 1.125rem;
+}
+/* 4 пункт */
+table {
+  border: 1px dashed lightgrey;
+}
+table td:nth-child(odd) {
+  background-color: lightgrey;
+}
+/* 5 Пункт */
+@media (max-width: 50rem) {
+  table,
+  thead,
+  tbody,
+  th,
+  td,
+  tr {
+    display: block;
+  }
+
+  thead tr {
+    display: none;
+  }
+
+  tr {
+    border: 1px solid darkgrey;
+  }
+
+  td {
+    border: none;
+    border-bottom: 1px solid lightgray;
+  }
+}
