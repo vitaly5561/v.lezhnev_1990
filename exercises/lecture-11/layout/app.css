@@ -1,26 +1,38 @@
 .grid-container {
-    display: grid;
-    grid-gap: 20px;
-    grid-template-areas: 
+  display: grid;
+  grid-gap: 20px;
+
+  /* 1 варіант */
+  /*grid-template-areas:
     "header header header"
     ". main main"
-    "footer footer footer";
+    "footer footer footer";*/
 }
 
-
 .header {
-   grid-area: header;
-   background-color: #78747340;
+  /* 1 варіант */
+  /*grid-area: header;*/
+
+  /* 2 варіант */
+  grid-column: span 3;
+  background-color: #78747340;
 }
 .sidebar {
 }
 .main {
-   grid-area: main;
-   background-color: #a7402740;
+  /* 1 варіант */
+  /*grid-area: main;*/
+
+  /*2  варіант */
+  grid-column: span 2;
+
+  background-color: #a7402740;
 }
 .footer {
-   grid-area: footer;
-   background-color: #78747340;
+  /* 1 варіант */
+  /*grid-area: footer;*/
+
+  /*2  варіант */
+  grid-column: span 3;
+  background-color: #78747340;
 }
-
-
