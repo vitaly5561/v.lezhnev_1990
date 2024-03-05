@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JavaScript</title>
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+  </head>
+  <body>
+    <h1>Hello, javascript!</h1>
+
+    <script>
+      // пункт 1
+      //message1 = 'Hello';
+      //message2= 'JavaScript!';
+      //alert(message1 + ' ' + message2);
+
+      // пункт 2
+      //'use strict';
+      //let message = 'hello';
+      //message = 123456;
+
+      // пункт 3
+      //'use strict';
+      //let x = parseFloat(prompt('введите значение x'));
+      //let y = parseFloat(prompt('введите значение y'));
+      //let result = x + y;
+      //console.log(result);
+
+      // пункт 4
+      //"use strict";
+      //let a = 9007199254740991n;
+      //let b = 9007199254740991n;
+      //console.log(a + b);
+
+      // пункт 5
+      //"use strict";
+      //let apples = Number("2");
+      //let oranges = Number("3");
+      //alert(apples + oranges);
+
+      // пункт 6
+      //"use strict";
+      //let a = 1,
+      //    b = 1;
+      //let c = ++a; // тут буде значення 2, так як це префиксний інкрімент то він спочатку зробіть більше на 1 а потім віведе результат
+      //console.log(c);
+      //let d = b++; // тут буде значення 1, так як це постфіксний інкрімент то він спочатку віведе значення а потів тільке збільщіть значення
+      //console.log(d);
+
+      // пункт 7
+      //"use strict";
+      //let a = 2;
+      //let x = 1 + (a *= 2);
+      //console.log(a); //буде дорівнюваті 4 тому що *=  це оператор множення
+      //console.log(x);//буде дорівнюваті 5
+
+      // пункт 8
+      "use strict";
+      "" + 1 + 0; //"10"строка
+      "" - 1 + 0; //"-1" строка
+      true + false; // 1 число
+      6 / "3"; // 2 число
+      "2" * "3"; // 6 число
+      4 + 5 + "px"; // 9px строка
+      "$" + 4 + 5; // $45 строка
+      "4" - 2; // 2 число
+      "4px" - 2; //NaN
+      "  -9  " + 5; // -4 число
+      "  -9  " - 5; // -14 число
+      null + 1; // 1 число
+      undefined + 1; // NaN
+      NaN + 1; //результат NaN (тому що любі операції з NaN дають NaN)
+
+      // пункт 8
+      //("use strict");
+      // скоротити цей код за допомогою операторів += і *=:
+      //let n = 2;
+      //n = n += 5; //n += 5;
+      //n = n * 2; //n *= 2 ;
+
+      // пункт 9
+      //let n1 = parseInt("   123   ");
+      //let n2 = parseInt("123z");
+      //let n3 = Number(true);
+      //let n4 = Number(false);
+      //console.log(n1, n2, n3, n4);
+    </script>
+  </body>
+</html>
