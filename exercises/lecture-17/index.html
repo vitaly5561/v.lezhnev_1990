@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      //пункт 1
+
+      //  let x = 3
+      //  let y = 4
+
+      /*
+                 x == 3 //true
+                 x === "3" // false
+                 x!=5 //true
+                 x!== "5" //true
+                 X!== 3 //false
+                 y > 5 //false
+                 y >= 3 // true
+                 y < 5 // true
+                 y <= 2 // false
+                 1 == true // true
+                 null == undefined // true
+                 NaN == NaN //false
+               */
+
+      //Пункт 2
+      //let x = 3;
+      //let y = 4;
+      //let z = 5;
+      /*
+               x ||= y; //3
+               x || (y = z); //3
+               x &&= y;//4
+               x && (y = z);//5
+               x ??= y;//4
+               x ?? (y = z);//4
+               */
+
+      //Пункт 3
+      /*  let num = prompt("введіть число");
+               console.log(typeof num);
+               num = parseFloat(num);
+               if (num === 3) {
+                 alert("Congratulations, You did it!");
+               } else if (num > 3) {
+                 alert("The number is too long");
+               } else {
+                 alert("The number is short");
+               }
+               */
+
+      //Пункт 4
+
+      /*let dayWeek = prompt("введіть назву дня тіжня");
+               console.log(dayWeek);
+               console.log(typeof dayWeek);
+               dayWeek = dayWeek.toLowerCase(); //переводимо літири в нижній ригістор для порівняння
+               console.log(dayWeek);
+               */
+      //за допомогою операторів if else
+      /*
+               if (dayWeek === "monday" || dayWeek === "понеділок") {
+                 alert("Start of the work week!");
+               } else if (dayWeek === "friday" || dayWeek === "п'ятниця") {
+                 alert("End of the work week!");
+               } else {
+                 alert("A regular day");
+               }
+               */
+
+      // за допомогою операторів switch
+      /* switch (dayWeek) {
+                 case "monday":
+                 case "понеділок": {
+                   alert("Start of the work week!");
+                   break;
+                 }
+
+                 case "friday":
+                 case "п'ятніця": {
+                   alert("End of the work week!");
+                   break;
+                 }
+
+                 default:{
+                   alert("A regular day");
+                   break;}
+               }*/
+
+      //Пункт 5
+
+      //let score = prompt("введіть кількість баллів");
+      //console.log(typeof score);
+      //score = parseFloat(score); //переводим  строку в число
+      //console.log(typeof score);
+
+      //  за допомогою if else
+      /* if (score < 50) {
+           alert("grade: 'F'");
+         } else if (score < 70) {
+           alert("grade: 'D'");
+         } else if (score < 80) {
+           alert("grade: 'C'");
+         } else if (score < 90) {
+           alert("grade: 'B'");
+         } else {
+           alert("grade: 'A'");
+         }*/
+
+      //  за допомогою тирнарного оператору
+      /*   let grade =
+           score < 50
+             ? "F"
+             : score < 70
+             ? "D"
+             : score < 80
+             ? "C"
+             : score < 90
+             ? "B"
+             : "A";
+         alert(`'Kількість балів:'${score}' призначити йому ступінь: '${grade}' `);
+       */
+
+      //Пункт 6
+      /*
+      let firstName = null;
+      let lastName = undefined;
+      let username = (firstName || lastName) ?? "Guest"; //подвійний знак питання не можна використовувати разом із
+      // операторами АБО (||) та І (&&) без дужок ().
+      console.log(username);
+      */
+    </script>
+  </body>
+</html>
