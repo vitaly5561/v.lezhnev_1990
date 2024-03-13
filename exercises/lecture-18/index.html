@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>function JS</title>
+  </head>
+  <body>
+    <!--- функція checkAge повертає true, якщо параметр age перевищує 18. - в іншому
+    випадку запитує підтвердження та повертає результат:-->
+
+    <script>
+      //Пункт 1
+
+      /*function checkAge(age) {
+              if (age > 18) {
+                return true;
+              }
+            }
+            */
+
+      //Відповідь
+      // в цьому випадку буде повертати  значення true якщо age > 18, і функція буде закінчена
+
+      //Пункт 2
+      //Відповідь
+      // тут буде  повертати  значення true якщо age > 18, а якщо ні то буде спрацьвувати інша умова і поверне значення confirm('Did parents allow you?')
+
+      //Пункт 3
+      /* function checkAge(age) {
+        if (age > 18) {
+          return true;
+        } else {
+          return confirm('Did parents allow you?');
+        }
+      }
+      */
+
+      //Перепишіть функцію checkAge, використовуючи '?'
+      //Відповідь
+      /*
+      function checkAge(age) {
+         return (age > 18) ? true : confirm('Разрешили ли родители?');
+      }
+      */
+
+      //Перепишіть функцію checkAge, використовуючи '?'
+      //Відповідь
+      /*
+      function checkAge(age) {
+        return (age > 18) || confirm('Разрешили ли родители?');
+      }
+      */
+
+      //return (age > 18) || confirm('Did parents allow you?');
+      //Відповідь
+      // можно писати можно ні буде все одно перевіряти на true або false...
+      //  якщо true то поверне значення true, якщо false то буде виполняти функція confirm
+
+      //Пункт 4
+      //if else
+      /*function min(a,b) {
+         if(a<b){
+            return a;
+         }
+         else {
+            return b;
+         }
+      }
+      */
+      //тернарни оператор
+      /*
+      function min(a,b) {
+         return (a<b)? a:b;
+      }
+      console.log(min(9,7));
+      */
+
+      //Пункт 5
+      /*
+      function pow(x, n) {
+        return x**=n;
+      }
+      let x = parseInt(prompt("введить x"));
+      let n = parseInt(prompt("введить n"));
+
+      if(x>=1 && Number.isInteger(n)){
+         alert(`Ваш результат: ${pow(x,n)}`);
+      }
+      else{
+         alert(`не вірно введене число ${n}`);
+      }
+      */
+      //Пункт 6 Переписати функцію ask, використовуючи функцію стрілок
+      /*
+      function ask(question, yes, no) {
+        if (confirm(question)) yes();
+        else no();
+      }
+
+      let ask = (question, yes, no) => {
+        if (confirm(question)) yes();
+        else no();
+      };
+      */
+
+      //Пункт 7 Переписати функцію ask, використовуючи функціональний вираз
+
+      /*
+      function ask(question, yes, no) {
+        if (confirm(question)) yes();
+        else no();
+      }
+
+      let ask = function (question, yes, no) {
+        if (confirm(question)) yes();
+        else no();
+      };
+
+      */
+
+      //Пункт 8
+
+      function A() {
+        console.log("A was called");
+        return undefined;
+      }
+      function B() {
+        console.log("B was called");
+        return false;
+      }
+      function C() {
+        console.log("C was called");
+        return "foo";
+      }
+
+      // 1 відповідь
+      A();
+      C();
+
+      // 2 відповідь
+      B();
+      C();
+    </script>
+  </body>
+</html>
