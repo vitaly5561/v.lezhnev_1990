@@ -1,0 +1,1 @@
+#19 Рядки JavaScript
